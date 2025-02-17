@@ -1,4 +1,5 @@
 STEGANOGRAPHY
+
 1.main function 
   1. The program starts with the `main()` function, where it checks the operation type using the command-line arguments (`-e` for encoding or `-d` for decoding).  
   2. If encoding (`-e`) is chosen, the `read_and_validate_encode_args()` function validates the source BMP and secret text files passed as arguments.  
